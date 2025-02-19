@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiii</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo-container">
+        <img src="mush.jpeg" class="logo">
+        <span class="logo-text">Irene's Website</span>
+    </div>
+    <div class="nav-links">
+        <a href="#" onclick="showTab('home')">Home</a>
+        <a href="#" onclick="showTab('about')">You're So Cool</a>
+        <a href="#" onclick="showTab('question')">Question</a>
+    </div>
+</nav>
+
+
+    <!-- Main Sections -->
+    <section id="home" class="container tab-content active">
+        <h1>Hii <span id="herName">blah</span>,</h1>
+        <p>This is a webiste to show how cool you are </p>
+    </section>
+
+    <section id="about" class="container tab-content">
+        <h2>Youre so cool </h2>
+        <ul>
+         <li>Blah</li>
+         <li>Blah</li>
+         <li>Blah</li>
+         <li>Blah</li>
+        </ul>
+    </section>
+
+    <section id="question" class="container tab-content">
+        <h2>Now, I have a question for you...</h2>
+        <button id="revealButton">Click to Reveal</button>
+        <div class="hidden" id="finalMessage">
+            <h1>Will </h1>
+            <div class="btn-group">
+                <button id="yesButton">sii</button>
+                <button id="noButton">no</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
